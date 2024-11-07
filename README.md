@@ -4,7 +4,7 @@ This code example showcases how to perform an HTTP over-the-air (OTA) update usi
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-threadx-wifi-ota-http)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzk2MTQiLCJTcGVjIE51bWJlciI6IjAwMi0zOTYxNCIsIkRvYyBUaXRsZSI6Ik92ZXItdGhlLWFpciBmaXJtd2FyZSB1cGRhdGUgdXNpbmcgSFRUUFMiLCJyaWQiOiJ2ZWxtdXJ1Z2FuIiwiRG9jIHZlcnNpb24iOiIxLjAuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiV0lGSSJ9)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzk2MTQiLCJTcGVjIE51bWJlciI6IjAwMi0zOTYxNCIsIkRvYyBUaXRsZSI6Ik92ZXItdGhlLWFpciBmaXJtd2FyZSB1cGRhdGUgdXNpbmcgSFRUUFMiLCJyaWQiOiJ2ZWxtdXJ1Z2FuIiwiRG9jIHZlcnNpb24iOiIxLjEuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiV0lGSSJ9)
 
 
 ## Requirements
@@ -299,6 +299,10 @@ f. Start the local HTTP/HTTPS server:
 
    3. In Step 3, if the code example has been configured to work in non-TLS mode: Set the value of `Port` to **8080** and `Connection` to **HTTP**.
 
+``````
+Note: Ensure that the ota_update.json file and the image file have matching version numbers.
+``````
+
 6. Program the board using one of the following:
 
       <details><summary><b>Using Eclipse IDE</b></summary>
@@ -420,6 +424,7 @@ Document title: *CE239614* – *mtb-example-threadx-wifi-ota-http*
  Version | Description of change
  ------- | ---------------------
  1.0.0   | New code example
+ 1.1.0   | Readme update
 
 <br>
 
